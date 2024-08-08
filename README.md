@@ -6,7 +6,7 @@ Use of stack buffer overflow, entry into the system without a password.
 
 1) Determine the addresses of the functions
 
-gcc +o main main.c - create an executable main:
+gcc +o main main.c //create an executable main: '\n'
 objdump -d main    - code dissassembly
 
 ![image](https://github.com/user-attachments/assets/f5e961e8-aeea-4bd0-a0c2-01f4999685b1)
